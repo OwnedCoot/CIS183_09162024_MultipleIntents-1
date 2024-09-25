@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(cameFrom.getSerializableExtra("petData") != null)
         {
-            //UNDERSTNAD THIS MORE, SPECIFICALLY (Pet)
+            //UNDERSTAND THIS MORE, SPECIFICALLY (Pet)
             Pet petData = (Pet) cameFrom.getSerializableExtra("petData");
             listOfPets.add(petData);
             Log.d("INFO FROM ADD PET", listOfPets.get(listOfPets.size() - 1).getName());

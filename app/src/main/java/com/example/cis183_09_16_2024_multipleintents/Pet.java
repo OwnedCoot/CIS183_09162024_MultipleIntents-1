@@ -49,7 +49,7 @@ public class Pet implements Serializable
 
     static class PetType
     {
-        static ArrayList<String> types = new ArrayList<>(Arrays.asList("Dog", "Cat", "Snake", "Chicken", "Hampster"));
+        static ArrayList<String> types = new ArrayList<>(Arrays.asList("Dog", "Cat", "Snake", "Chicken", "Hamster"));
 
         //3 functions to make this operate as we need
         public static ArrayList<String> getAllPetTypes()
